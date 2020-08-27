@@ -12,7 +12,7 @@ RUN curl -Lo msodbcsql.msi https://go.microsoft.com/fwlink/?linkid=2137027
 RUN msiexec.exe /i msodbcsql.msi ADDLOCAL=ALL /norestart /qn /quiet /passive IACCEPTMSODBCSQLLICENSETERMS=YES
 
 # R
-RUN curl.exe -o r-install.exe https://cran.r-project.org/bin/windows/base/old/3.6.3/R-3.6.3-win.exe
+RUN curl.exe -o r-install.exe https://cran.r-project.org/bin/windows/base/old/3.4.0/R-3.4.0-win.exe
 RUN r-install.exe /VERYSILENT /DIR="C:\R\"
 
 # RTools
