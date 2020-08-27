@@ -15,3 +15,8 @@ Specific versions:
 # R 3.4.0
 docker build ./rservercore-340 --tag rservercore:3.4.0
 ```
+
+## Run R in the container
+```
+docker run -it --rm rservercore:3.4.0 R
+```
