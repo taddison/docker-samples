@@ -1,1 +1,0 @@
-docker build ./rservercore-340 --tag rservercore:3.4.0

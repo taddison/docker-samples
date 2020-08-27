@@ -8,3 +8,10 @@ Specific versions:
 
 - rservercore-340
   - R 3.4.0
+
+## Build scripts
+
+```shell
+# R 3.4.0
+docker build ./rservercore-340 --tag rservercore:3.4.0
+```
