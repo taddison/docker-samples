@@ -8,7 +8,7 @@ RUN curl -Lo vc_redist.x64.exe  https://aka.ms/vs/16/release/vc_redist.x64.exe
 RUN vc_redist.x64.exe /install /quiet /norestart
 
 # ODBC
-RUN curl -Lo msodbcsql.msi https://go.microsoft.com/fwlink/?linkid=2137027
+RUN curl -Lo msodbcsql.msi https://go.microsoft.com/fwlink/?linkid=2121206
 RUN msiexec.exe /i msodbcsql.msi ADDLOCAL=ALL /norestart /qn /quiet /passive IACCEPTMSODBCSQLLICENSETERMS=YES
 
 # R
